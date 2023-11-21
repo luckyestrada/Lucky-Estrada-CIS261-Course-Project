@@ -3,7 +3,7 @@
 #Course Project Phase3
 
 def GetEmpName():
-    empnamme = input("Enter employee name: ")
+    empname = input("Enter employee name: ")
     return empname
 
 def getDatesWorked():
@@ -105,7 +105,7 @@ def ReadEmployeeInformation(fromdate):
                 EmpDetailList.append([employee[0], employee[1], employee[2], float(employee[3]), float(employee[4]), float(employee[5])])
     return EmpDetailList
     
-if __name__ == "main__":
+if __name__ == "__main__":
         EmpDetailList = []
         EmpTotals = {}
     
